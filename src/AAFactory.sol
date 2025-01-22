@@ -63,7 +63,7 @@ contract AAFactory {
     (accountAddress) = abi.decode(returnData, (address));
 
     accountMappings[_uniqueAccountId] = accountAddress;
-    
+
     // Initialize the newly deployed account with validators, hooks and K1 owners.
     ISsoAccount(accountAddress).initialize(_initialValidators, _initialK1Owners);
 
