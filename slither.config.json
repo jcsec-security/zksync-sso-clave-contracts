@@ -1,6 +1,6 @@
 {
   "filter_paths": "(test|src/test|scripts|node_modules)",
-  "detectors_to_exclude": "uninitialized-local,unused-returns",
+  "detectors_to_exclude": "uninitialized-local",
   "exclude_dependencies": true,
   "compile_force_framework": "foundry",
   "foundry_ignore_compile": false,
